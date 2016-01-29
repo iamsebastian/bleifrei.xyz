@@ -24,3 +24,6 @@ markdown: kramdown
 
 github:
   url: "https://iamsebastian.github.io/bleifrei.xyz"
+
+gems:
+  - jekyll-sitemap
