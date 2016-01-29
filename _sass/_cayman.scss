@@ -101,8 +101,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: $brown_dark;
-  background-image: linear-gradient(120deg, $black, $brown_dark, $brown, $brown_light, $beige);
+  background-color: $black;
+  background-image: linear-gradient(0deg, $black 0%, $brown_dark 42%, $brown 65%, $brown_light 80%, $beige 100%);
 
   @include large {
     padding: 5rem 6rem;
