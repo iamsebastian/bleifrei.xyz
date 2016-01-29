@@ -21,3 +21,6 @@ github_username:  iamsebastian
 
 # Build settings
 markdown: kramdown
+
+github:
+  url: "https://iamsebastian.github.io/bleifrei.xyz"
