@@ -7,8 +7,11 @@ $brown: #CB5909;
 $brown_light: #F18E1C;
 $beige: #FFFBB1;
 
-$brown_dark_desaturated: desaturate($brown_dark, 50%);
-$brown_desaturated: darken(desaturate($brown, 60%), 7%);
+$brown_dark_desaturated: desaturate($brown_dark, 60%);
+$brown_desaturated: lighten(desaturate($brown, 60%), 7%);
+$brown_light_desaturated: lighten(desaturate($brown_light, 63%), 13%);
+
+$quote-color: lighten($brown_dark_desaturated, 20%);
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -35,10 +38,11 @@ $brown_desaturated: darken(desaturate($brown, 60%), 7%);
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif, serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: $brown_light_desaturated;
+  background-color: $black;
 }
 
 a {
@@ -200,8 +204,8 @@ a {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: #383e41;
-    background-color: #f3f6fa;
+    color: $brown_desaturated;
+    background-color: darken($brown_dark_desaturated, 10%);
     border-radius: 0.3rem;
   }
 
@@ -210,17 +214,17 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: #567482;
+    color: $quote-color;
     word-wrap: normal;
-    background-color: #f3f6fa;
-    border: solid 1px #dce6f0;
+    background-color: transparent;
+    border: solid 1px $brown_dark_desaturated;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: #567482;
+      color: $quote-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -273,8 +277,8 @@ a {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0;
+    color: $quote-color;
+    border-left: 0.3rem solid $brown_dark_desaturated;
 
     > :first-child {
       margin-top: 0;
@@ -324,7 +328,7 @@ a {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: #eff0f1;
+    background-color: $brown_dark_desaturated;
     border: 0;
   }
 }
@@ -332,7 +336,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1;
+  border-top: solid 1px $brown_dark_desaturated;
 
   @include large {
     font-size: 1rem;
@@ -353,5 +357,5 @@ a {
 }
 
 .site-footer-credits {
-  color: #819198;
+  color: $brown_desaturated;
 }

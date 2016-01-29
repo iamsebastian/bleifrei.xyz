@@ -4,17 +4,29 @@ layout: default
 
 <div class="home">
 
+  <p>Ein netter Durstl&ouml;scher f&uuml;r zwischendurch.</p>
+
+  <blockquote>
+    <p>Gib' der Maische ordentlich Dunst, wenn das Malz sich transfusionieren soll.</p>
+  </blockquote>
+
+  <h1>
+    <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sind wir dufte?</h1>
+  <p>Wir sind dufte.</p>
+
+  <hr>
+  
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 

@@ -1,7 +1,12 @@
 <section class="page-header">
 
-  <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
-  <h2 class="project-tagline">{{ site.tagline }}</h1>
+  <!--<h1 class="project-name"><a href="{{ site.github.url }}">{{ site.title }}</a></h1>-->
+  {% if jekyll.environment == "production" %}
+    <h2><a href="{{ site.github.url }}">{% include logo-bleifrei.svg %}</a></h2>
+  {% else %}
+    <h2><a href="/">{% include logo-bleifrei.svg %}</a></h2>
+  {% endif %}
+  <!--<h2 class="project-tagline">{{ site.tagline }}</h1>-->
   <a href="{{ 'about/' | prepend: site.baseurl }}" class="btn">Über uns</a>
 <!--
    -  <nav class="site-nav">
