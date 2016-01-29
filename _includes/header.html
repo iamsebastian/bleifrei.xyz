@@ -2,12 +2,12 @@
 
   <!--<h1 class="project-name"><a href="{{ site.github.url }}">{{ site.title }}</a></h1>-->
   {% if jekyll.environment == "production" %}
-    <h2><a href="{{ site.github.url }}">{% include logo-bleifrei.svg %}</a></h2>
+    <h2><a href="{{ '/' | prepend: site.url }}">{% include logo-bleifrei.svg %}</a></h2>
   {% else %}
     <h2><a href="/">{% include logo-bleifrei.svg %}</a></h2>
   {% endif %}
   <!--<h2 class="project-tagline">{{ site.tagline }}</h1>-->
-  <a href="{{ 'about/' | prepend: site.baseurl }}" class="btn">Über uns</a>
+  <a href="{{ 'about/' | prepend: site.url | prepend: site.baseurl }}" class="btn">Über uns</a>
 <!--
    -  <nav class="site-nav">
    -    <a href="#" class="menu-icon">
@@ -21,7 +21,7 @@
    -    <div class="trigger">
    -      {% for my_page in site.pages %}
    -      {% if my_page.title %}
-   -      <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+   -      <a class="page-link" href="{{ my_page.url | prepend: site.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
    -      {% endif %}
    -      {% endfor %}
    -    </div>
