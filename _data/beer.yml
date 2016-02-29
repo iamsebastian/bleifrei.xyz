@@ -1,0 +1,45 @@
+1:
+  name: Droddl
+  malts:
+    - 3.7kg Wiener
+    - 400g Melanoidin
+    - 240g Caramünch II
+  hops:
+    - 24g Cascade @VWZ
+    - 32g Cascade @10 Min.
+    - 40g Hüll Melon @0 Min.
+    - 40g Hüll Melon @Stopfen
+  yeast: Danstar Nottingham
+2:
+  name: Schnellbier
+  malts:
+    - 4kg Pilsner
+    - 0.5kg Weizen
+    - 0.5kg Cara Hell
+    - 0.2kg Gerstenflocken
+  hops:
+    - 20g Comet @VWZ
+    - 20g Motueka @Whirlpool
+  yeast: US05
+3:
+  name: Fast Comet
+  malts:
+    - 1.67kg Pilsner
+    - 1.67kg Pale Ale
+    - 1.67kg Red X
+    - 0.42kg Weizen Hell
+  hops:
+    - 15g Comet @VWZ
+    - 7g Comet @70 Min.
+    - 7g Comet @10 Min.
+    - 7g Comet @Whirlpool
+    - 55g Comet @Stopfen
+  yeast: Danstar Nottingham
+4:
+  name: Maibock
+  malts:
+    - 6kg Wiener
+  hops:
+    - 20g Magnum@70 Min.
+    - 32g Caschade @10 Min.
+  yeast: Danstar Nottingham
