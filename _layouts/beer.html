@@ -14,10 +14,10 @@
         {{ content }}
       </div>
 
-      {% if page.without_receipt %}
-      {% else %}
+      {% unless page.without_receipt %}
         {% include receipt.html %}
-      {% endif %}
+      {% else %}
+      {% endunless %}
 
       {% include footer.html %}
 
