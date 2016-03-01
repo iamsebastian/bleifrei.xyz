@@ -1,0 +1,25 @@
+Melon:
+  name: Hüll Melon
+  producer: Hüll
+  developer: Hüll
+  alpha: 6.4
+  type: Aroma
+2:
+  name: Mandarina Bavarian
+  producer: Hüll
+  developer: Hüll
+  alpha: 7.3
+  type: Aroma
+3:
+  name: Hallertau Blanc
+  producer: Hüll
+  developer: Hüll
+  alpha: 8.1
+  type: Aroma
+4:
+  name: Polaris
+  producer: Hüll
+  developer: Hüll
+  alpha: 18.2
+  type: Bitter
+

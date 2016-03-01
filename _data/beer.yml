@@ -1,14 +1,15 @@
 1:
   name: Droddl
   malts:
-    - 3.7kg Wiener
-    - 400g Melanoidin
-    - 240g Caramünch II
+    Wiener: 3700
   hops:
-    - 24g Cascade @VWZ
-    - 32g Cascade @10 Min.
-    - 40g Hüll Melon @0 Min.
-    - 40g Hüll Melon @Stopfen
+    Melon:
+      time: vwz
+      weight: 24
+    #- 24g Cascade @VWZ
+    #- 32g Cascade @10 Min.
+    #- 40g Hüll Melon @0 Min.
+    #- 40g Hüll Melon @Stopfen
   yeast: Danstar Nottingham
 2:
   name: Schnellbier

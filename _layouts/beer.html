@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include small_header.html %}
+
+    <section class="main-content">
+      {% include beer_header.html %}
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+
+      {% if page.without_receipt %}
+      {% else %}
+        {% include receipt.html %}
+      {% endif %}
+
+      {% include footer.html %}
+
+    </section>
+
+  </body>
+
+</html>
