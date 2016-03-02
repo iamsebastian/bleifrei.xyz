@@ -1,46 +1,128 @@
-1:
-  name: Droddl
-  malts:
-    Wiener: 3700
-  hops:
-    Melon:
-      time: vwz
-      weight: 24
-    #- 24g Cascade @VWZ
-    #- 32g Cascade @10 Min.
-    #- 40g Hüll Melon @0 Min.
-    #- 40g Hüll Melon @Stopfen
-  yeast: Danstar Nottingham
+0:
+  name: Extrakt-Bräu
 2:
-  name: Schnellbier
+  name: Pehl Börten
   malts:
-    - 4kg Pilsner
-    - 0.5kg Weizen
-    - 0.5kg Cara Hell
-    - 0.2kg Gerstenflocken
+    pale: 5000
+    marisotter: 500
+    carahell: 500
   hops:
-    - 20g Comet @VWZ
-    - 20g Motueka @Whirlpool
-  yeast: US05
+    - type: progress2013
+      time: 90 Min.
+      weight: 4
+    - type: ekg2014
+      time: 90 Min.
+      weight: 17
+    - type: progress2013
+      time: 0 Min.
+      weight: 23
+  yeast: m79
+  meta:
+    #isom: 25
 3:
-  name: Fast Comet
+  name: Lamäkto
   malts:
-    - 1.67kg Pilsner
-    - 1.67kg Pale Ale
-    - 1.67kg Red X
-    - 0.42kg Weizen Hell
+    wiener: 4050
+    #Melanoidin: 440
+    #ersetzt zu:
+    waramber: 660
+    #Caramünch II: 260
+    #ersetzt zu:
+    caradunkel: 380
   hops:
-    - 15g Comet @VWZ
-    - 7g Comet @70 Min.
-    - 7g Comet @10 Min.
-    - 7g Comet @Whirlpool
-    - 55g Comet @Stopfen
-  yeast: Danstar Nottingham
+    #Auf Grund der langen Nachisomerisierungszeit
+    #von angegebenen 25m, ist ein Kochen von Bitterhopfen
+    #laut IBU Rechner nicht nötig.
+    #Polaris:
+      #time: VWZ
+      #bitter: true
+      #weight: 26
+    - type: perle2014
+      time: VWZ
+      weight: 22
+    - type: perle2014
+      time: 10 Min.
+      weight: 29
+    - type: smaragd2014
+      time: 0 Min.
+      weight: 66
+    - type: smaragd2014
+      time: Stopfen
+      weight: 60
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=375
+  meta:
+    #isom: 25
 4:
-  name: Maibock
+  name: Minotaurenrennen
   malts:
-    - 6kg Wiener
+    pils: 4000
+    weizen: 500
+    carahell: 500
+    gerstenflocken: 200
   hops:
-    - 20g Magnum@70 Min.
-    - 32g Caschade @10 Min.
-  yeast: Danstar Nottingham
+    - type: taurus2014
+      time: VWZ
+      weight: 10
+    - type: perle2014
+      time: Whirlpool
+      weight: 18
+  yeast: us05
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=383&factoraw=&factorsha=&factorhav=18.4&factorhav2=&factorhav3=&factorha2=&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=&suche_malz=&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorha1=7.6
+5:
+  name: Kometensmaragd
+  malts:
+    pils: 5000
+  hops:
+    - type: smaragd2014
+      time: VWZ
+      weight: 27
+    - type: smaragd2014
+      time: 70 Min.
+      weight: 13
+    - type: smaragd2014
+      time: 10 Min.
+      weight: 13
+    - type: smaragd2014
+      time: Whirlpool
+      weight: 13
+    - type: smaragd2014
+      time: Stopfen
+      weight: 55
+  yeast: nottingham
+6:
+  name: bald Bock, bald Mai
+  malts:
+    wiener: 5000
+  hops:
+    - type: spaltselect
+      time: VWZ
+      weight: 41
+    - type: taurus
+      time: 70Min.
+      weight: 4
+    - type: cascade
+      time: Whirlpool
+      weight: 23
+  yeast: nottingham
+7:
+  name: Wieß
+  malts:
+    pils: 2100
+    wiener: 1800
+    carahell: 250
+  hops:
+    - type: smaragd2014
+      time: VWZ
+      weight: 17
+    - type: taurus2014
+      time: 70 Min.
+      weight: 6
+    - type: smaragd2014
+      time: 10 Min.
+      weight: 18
+  meta:
+    lager: 4-6, besser 10
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=2&id=101&factoraw=20&factorsha=63&factorhav2=&factorhav3=&factorha1=18.4&factorha2=3.9&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=Ale%2C+Pale&suche_malz=Wiener+Malz&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorhav=3.9
+

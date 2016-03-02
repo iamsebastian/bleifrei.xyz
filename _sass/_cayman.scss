@@ -1,18 +1,3 @@
-$large-breakpoint: 64em;
-$medium-breakpoint: 42em;
-
-$black: #1B100D;
-$brown_dark: #6A2C0C;
-$brown: #CB5909;
-$brown_light: #F18E1C;
-$beige: #FFFBB1;
-
-$brown_dark_desaturated: desaturate($brown_dark, 60%);
-$brown_desaturated: lighten(desaturate($brown, 60%), 7%);
-$brown_light_desaturated: lighten(desaturate($brown_light, 63%), 13%);
-
-$quote-color: lighten($brown_dark_desaturated, 20%);
-
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;

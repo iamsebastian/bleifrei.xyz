@@ -1,7 +1,21 @@
-.receipt-header {
+.beer-header {
 
-  h1.receipt-headline {
-    font-weight: bold;
+  h1.beer-headline {
+    /*font-weight: bold;*/
   }
 
+}
+
+section.receipt {
+  h2 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $brown_dark_desaturated;
+  }
+
+  ul li {
+    list-style-type: decimal;
+  }
+
+  background-color: $more_black;
+  padding: 12px;
 }

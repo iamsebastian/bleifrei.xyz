@@ -1,29 +1,53 @@
 <section class="receipt">
-  <h1>Rezept</h1>
+  <h2>Inhalt:</h2>
 
-  {% assign beer = site.data.beer[page.title] %}
+  {% assign beer = site.data.beer[page.beer] %}
 
-  <h2>Malz</h2>
-  {% for malts in beer.malts %}
-    {% assign name = malts[0] %}
-    {% assign weight = malts[1] %}
-    {% assign malt = site.data.malts[name] %}
-    <ul>
+  <h3>Malz</h3>
+  <ul>
+    {% for malts in beer.malts %}
+      {% assign name = malts[0] %}
+      {% assign weight = malts[1] %}
+      {% assign malt = site.data.malts[name] %}
+      {% assign name = malt.name %}
       <li>{{ weight }}g {{ name }}
         <i>({{ malt.ebc }} EBC)</i>
       </li>
-    </ul>
-  {% endfor %}
+    {% endfor %}
+  </ul>
 
-  <h2>Hopfen</h2>
-  {% for hops in beer.hops %}
-    {% assign name = hops[0] %}
-    {% assign weight = hops[1].weight %}
-    {% assign time = hops[1].time %}
-    {% assign hop = site.data.hops[name] %}
-    <ul>
-      <li>{{ weight }}g {{ name }} <i>({{ hop.alpha }}%&alpha;)</i> @{{ time }}
+  <h3>Hopfen</h3>
+  <ul>
+    {% for hops in beer.hops %}
+      {% assign hop = site.data.hops[hops.type] %}
+      {% assign weight = hops.weight %}
+      {% assign time = hops.time %}
+      <li>{{ weight }}g {{ hop.name }} <i>({{ hop.alpha }}%&alpha;)</i> @{{ time }}
       </li>
-    </ul>
-  {% endfor %}
+    {% endfor %}
+  </ul>
+
+  <h3>Meta</h3>
+  <ul>
+    {% for meta in beer.meta %}
+    {% endfor %}
+
+    {% if beer.meta.lager %}
+      <li>Lagerzeit: {{ beer.meta.lager }} Wochen</li>
+    {% endif %}
+
+    <li>Nachisomerisierungszeit:
+      {% unless beer.meta.isom %}
+        25
+      {% else %}
+        {{ beer.meta.isom }}
+      {% endunless %}
+      Min. </li>
+  </ul>
+
+  {% if beer.orig %}
+    <p>
+    <small><a href="{{ beer.orig }}">Quellrezept</a></small>
+    </p>
+  {% endif %}
 </section>
