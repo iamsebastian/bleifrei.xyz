@@ -34,9 +34,6 @@ waramber:
   name: Warminster Amber
   ebc: 38-65
   url: http://amihopfen.com/Malz/Karamelmalze/Warminster-Amber-Malz-1kg::58.html
-caraaroma:
-  ebc: 340-450
-  url: http://amihopfen.com/Malz/Farb-und-Roestmalze/Weyermann-CARAAROMA-1kg::1362.html
 carahell:
   name: Bairds Cara Hell
   ebc: 10-30
@@ -60,3 +57,7 @@ gerstenflocken:
   name: Gerstenflocken
   ebc: '-'
   url: http://www.hobbybrauerversand.de/Gerstenflocken-1-kg-Packung
+caraaroma:
+  name: Weyermann Caraaroma
+  ebc: 340-450
+  url: http://amihopfen.com/Malz/Farb-und-Roestmalze/Weyermann-CARAAROMA-1kg::1362.html
