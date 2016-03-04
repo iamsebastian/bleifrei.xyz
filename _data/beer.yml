@@ -1,5 +1,15 @@
 0:
   name: Extrakt-Bräu
+1:
+  name: Guiness 1880
+  malts:
+    waramber: 550
+    röstmalz: 360
+    marisotter: 4550
+  hops:
+    - type: ekg2014
+      time: 60 Min.
+      weight: 81
 2:
   name: Pehl Börten
   malts:
