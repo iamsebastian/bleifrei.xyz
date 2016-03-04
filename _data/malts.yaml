@@ -55,7 +55,7 @@ röstmalz:
   url: http://amihopfen.com/Malz/Farb-und-Roestmalze/BEST-Roestmalz-1kg::814.html
 gerstenflocken:
   name: Gerstenflocken
-  ebc: '-'
+  ebc: 5
   url: http://www.hobbybrauerversand.de/Gerstenflocken-1-kg-Packung
 caraaroma:
   name: Weyermann Caraaroma

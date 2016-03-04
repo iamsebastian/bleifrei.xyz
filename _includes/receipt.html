@@ -3,6 +3,8 @@
 
   {% assign beer = site.data.beer[page.beer] %}
 
+  <p>EBC: {% calc_beer %}</p>
+
   <h3>Malz</h3>
   <ul>
     {% for malts in beer.malts %}
@@ -14,6 +16,8 @@
         <i>({{ malt.ebc }} EBC)</i>
       </li>
     {% endfor %}
+
+    <p>Gesamtschüttung: {{ beer | get_sum_weight }}</p>
   </ul>
 
   <h3>Hopfen</h3>
