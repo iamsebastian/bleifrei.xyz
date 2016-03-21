@@ -30,15 +30,31 @@
   meta:
     #isom: 25
 3:
+  name: Minotaurenrennen
+  malts:
+    pils: 4000
+    weizen: 500
+    carahell: 500
+    gerstenflocken: 200
+  hops:
+    - type: taurus2014
+      time: VWZ
+      weight: 10
+    - type: perle2014
+      time: Whirlpool
+      weight: 18
+  yeast: us05
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=383&factoraw=&factorsha=&factorhav=18.4&factorhav2=&factorhav3=&factorha2=&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=&suche_malz=&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorha1=7.6
+4:
   name: Lamäkto
   malts:
-    wiener: 4050
+    wiener: 4000
     #Melanoidin: 440
     #ersetzt zu:
-    waramber: 660
+    waramber: 450
     #Caramünch II: 260
     #ersetzt zu:
-    caradunkel: 380
+    caradunkel: 1000
   hops:
     #Auf Grund der langen Nachisomerisierungszeit
     #von angegebenen 25m, ist ein Kochen von Bitterhopfen
@@ -63,22 +79,6 @@
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=375
   meta:
     #isom: 25
-4:
-  name: Minotaurenrennen
-  malts:
-    pils: 4000
-    weizen: 500
-    carahell: 500
-    gerstenflocken: 200
-  hops:
-    - type: taurus2014
-      time: VWZ
-      weight: 10
-    - type: perle2014
-      time: Whirlpool
-      weight: 18
-  yeast: us05
-  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=383&factoraw=&factorsha=&factorhav=18.4&factorhav2=&factorhav3=&factorha2=&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=&suche_malz=&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorha1=7.6
 5:
   name: Kometensmaragd
   malts:
@@ -105,16 +105,17 @@
   malts:
     wiener: 5000
   hops:
-    - type: spaltselect
+    - type: northern2014
       time: VWZ
-      weight: 41
-    - type: taurus
+      weight: 16
+    - type: taurus2014
       time: 70Min.
-      weight: 4
-    - type: cascade
+      weight: 5
+    - type: perle2014
       time: Whirlpool
-      weight: 23
+      weight: 21
   yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?id=91&inhaltmitte=recipe&seite=1&suche_seite=&order=datum&ordertype=DESC
 7:
   name: Wieß
   malts:
