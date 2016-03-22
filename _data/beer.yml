@@ -1,6 +1,6 @@
-0:
-  name: Extrakt-Bräu
 1:
+  name: Extrakt-Bräu
+2:
   name: Guiness 1880
   malts:
     waramber: 550
@@ -10,7 +10,7 @@
     - type: ekg2014
       time: 60 Min.
       weight: 81
-2:
+3:
   name: Pehl Börten
   malts:
     pale: 5000
@@ -29,7 +29,32 @@
   yeast: m79
   meta:
     #isom: 25
-3:
+4:
+  name: Crocotula
+  malts:
+    pils: 5000
+    caradunkel: 1000
+  hops:
+    - type: smaragd2014
+      time: VWZ
+      weight: 27
+    - type: smaragd2014
+      time: 70 Min.
+      weight: 13
+    - type: smaragd2014
+      time: 10 Min.
+      weight: 13
+    - type: smaragd2014
+      time: Whirlpool
+      weight: 13
+    - type: smaragd2014
+      time: Stopfen
+      weight: 55
+  yeast: nottingham
+  meta:
+    erwartete IBU: ~ 60.2
+    isom: 30
+5:
   name: Minotaurenrennen
   malts:
     pils: 4000
@@ -45,7 +70,7 @@
       weight: 18
   yeast: us05
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=383&factoraw=&factorsha=&factorhav=18.4&factorhav2=&factorhav3=&factorha2=&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=&suche_malz=&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorha1=7.6
-4:
+6:
   name: Lamäkto
   malts:
     wiener: 4000
@@ -79,28 +104,7 @@
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=375
   meta:
     #isom: 25
-5:
-  name: Kometensmaragd
-  malts:
-    pils: 5000
-  hops:
-    - type: smaragd2014
-      time: VWZ
-      weight: 27
-    - type: smaragd2014
-      time: 70 Min.
-      weight: 13
-    - type: smaragd2014
-      time: 10 Min.
-      weight: 13
-    - type: smaragd2014
-      time: Whirlpool
-      weight: 13
-    - type: smaragd2014
-      time: Stopfen
-      weight: 55
-  yeast: nottingham
-6:
+7:
   name: bald Bock, bald Mai
   malts:
     wiener: 5000
@@ -116,7 +120,7 @@
       weight: 21
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?id=91&inhaltmitte=recipe&seite=1&suche_seite=&order=datum&ordertype=DESC
-7:
+8:
   name: Wieß
   malts:
     pils: 2100

@@ -34,6 +34,9 @@
   <h3>Meta</h3>
   <ul>
     {% for meta in beer.meta %}
+      {% unless meta[0] == 'isom' %}
+        <li>{{ meta[0] }}: {{ meta[1] }}</li>
+      {% endunless %}
     {% endfor %}
 
     {% if beer.meta.lager %}
