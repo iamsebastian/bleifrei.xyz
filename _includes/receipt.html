@@ -34,20 +34,27 @@
   <h3>Meta</h3>
   <ul>
     {% for meta in beer.meta %}
-      {% unless meta[0] == 'isom' %}
+      {% unless meta[0] == 'specific' %}
         <li>{{ meta[0] }}: {{ meta[1] }}</li>
       {% endunless %}
     {% endfor %}
 
-    {% if beer.meta.lager %}
-      <li>Lagerzeit: {{ beer.meta.lager }} Wochen</li>
+    {% if beer.meta.specific.lager %}
+      {% assign lager = beer.meta.specific.lager %}
+      <li>Lagerzeit: {{ lager }}
+        {% unless lager == 1 %}
+          Wochen
+        {% else %}
+          Woche
+        {% endunless %}
+      </li>
     {% endif %}
 
     <li>Nachisomerisierungszeit:
-      {% unless beer.meta.isom %}
+      {% unless beer.meta.specific.isom %}
         25
       {% else %}
-        {{ beer.meta.isom }}
+        {{ beer.meta.specific.isom }}
       {% endunless %}
       Min. </li>
   </ul>
