@@ -1,2 +1,2 @@
-FROM php:5.6-apache
-COPY _site/ /var/www/html/
+FROM nginx
+COPY _site/ /usr/share/nginx/html
