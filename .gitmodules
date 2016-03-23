@@ -1,4 +1,4 @@
 [submodule "_site"]
 	path = _site
-	url = git@github.com:iamsebastian/bleifrei.xyz.git
+	url = https://github.com/iamsebastian/bleifrei.xyz.git
 	branch = gh-pages
