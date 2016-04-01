@@ -5,6 +5,8 @@ node_js:
 
 before_script:
   - phantomjs --version
+  - python -m SimpleHTTPServer 3000
+  - curl localhost:3000
 
 notifications:
   slack: sblei:hjdLbikaX1Pvwz5hsoeSvw8f
