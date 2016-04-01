@@ -7,7 +7,7 @@ rvm:
   - 2.2.0
 
 before_install:
-  - gem install jekyll
+  - gem install
 
 before_script:
   - phantomjs --version
