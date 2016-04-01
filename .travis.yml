@@ -5,3 +5,6 @@ node_js:
 
 before_script:
   - phantomjs --version
+
+notifications:
+  slack: sblei:hjdLbikaX1Pvwz5hsoeSvw8f
