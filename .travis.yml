@@ -8,6 +8,7 @@ before_install:
 before_script:
   - phantomjs --version
   - bundle exec jekyll serve &
+  - sleep 3
 
 script:
   - curl localhost:4000
