@@ -6,6 +6,7 @@ node_js:
 before_script:
   - phantomjs --version
   - python -m SimpleHTTPServer 3000 &
+  - sleep 3
   - curl localhost:3000
 
 notifications:
