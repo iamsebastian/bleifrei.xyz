@@ -25,3 +25,6 @@ github:
 
 gems:
   - jekyll-sitemap
+
+exclude:
+  - vendor
