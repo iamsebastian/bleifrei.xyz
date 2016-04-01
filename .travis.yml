@@ -5,9 +5,11 @@ node_js:
 
 before_script:
   - phantomjs --version
-  - python -m SimpleHTTPServer 3000 &
-  - sleep 3
-  - curl localhost:3000
+  #- python -m SimpleHTTPServer 3000 &
+  #- sleep 3
+  - bundle install
+  - jekyll serve
+  - curl localhost:4000
 
 notifications:
   slack: sblei:hjdLbikaX1Pvwz5hsoeSvw8f
