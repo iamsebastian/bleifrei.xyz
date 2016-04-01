@@ -1,20 +1,14 @@
 language: ruby
 
-#node_js:
-  #- node
-
 rvm:
   - 2.2.0
 
 before_install:
-  #- gem install github-pages jekyll jekyll-sitemap
 
 before_script:
   - phantomjs --version
-  #- python -m SimpleHTTPServer 3000 &
-  #- sleep 3
-  #- bundle install
-  - bundle exec jekyll serve
+  - bundle exec jekyll serve &
+  - sleep 3
   - curl localhost:4000
 
 notifications:
