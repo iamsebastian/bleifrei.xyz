@@ -1,7 +1,7 @@
-language: node_js
+language: ruby
 
-node_js:
-  - node
+#node_js:
+  #- node
 
 rvm:
   - 2.2.0
@@ -10,7 +10,7 @@ before_script:
   - phantomjs --version
   #- python -m SimpleHTTPServer 3000 &
   #- sleep 3
-  - bundle install
+  #- bundle install
   - jekyll serve
   - curl localhost:4000
 
