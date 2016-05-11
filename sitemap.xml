@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://bleifrei.xyz/jekyll/update/2016/01/29/welcome-to-jekyll.html</loc>
-    <lastmod>2016-01-29T12:45:17+01:00</lastmod>
+    <loc>http://bleifrei.xyz/1/</loc>
   </url>
   <url>
-    <loc>http://bleifrei.xyz/1/</loc>
+    <loc>http://bleifrei.xyz/10/</loc>
   </url>
   <url>
     <loc>http://bleifrei.xyz/2/</loc>
