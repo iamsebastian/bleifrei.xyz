@@ -178,16 +178,17 @@
 10:
   name: Oatmeal - Hafer Creme
   malts:
-    pils: 2730
-    haferflocken: 910
-    röstmalz: 320
+    pils: 3000
+    haferflocken: 1000
+    chocolate: 180
+    röstmalz: 180
   hops:
     - type: northern2014
       time: VWH
       weight: 26
   meta:
     specific:
-      lager: 4. Es reichen wohl (vorerst) vier Wochen.
+      lager: 1
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=539&suche_sorte=Stout&factoraw=20&factorsha=53&factorha1=10.4
 
