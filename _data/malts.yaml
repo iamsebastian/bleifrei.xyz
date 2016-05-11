@@ -57,6 +57,10 @@ gerstenflocken:
   name: Gerstenflocken
   ebc: 5
   url: http://www.hobbybrauerversand.de/Gerstenflocken-1-kg-Packung
+haferflocken:
+  name: Haferflocken
+  ebc: 2
+  url: https://brauerei.mueggelland.de/malz-details/items/11.html
 caraaroma:
   name: Weyermann Caraaroma
   ebc: 340-450

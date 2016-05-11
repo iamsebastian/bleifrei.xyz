@@ -60,6 +60,7 @@
     specific:
       isom: 30
 5:
+  brewed: true
   name: Minotaurenrennen
   malts:
     marisotter: 2000
@@ -174,4 +175,19 @@
       lager: 4-6, besser 10
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=2&id=101&factoraw=20&factorsha=63&factorhav2=&factorhav3=&factorha1=18.4&factorha2=3.9&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=Ale%2C+Pale&suche_malz=Wiener+Malz&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorhav=3.9
+10:
+  name: Oatmeal - Hafer Creme
+  malts:
+    pils: 2730
+    haferflocken: 910
+    röstmalz: 320
+  hops:
+    - type: northern2014
+      time: VWH
+      weight: 26
+  meta:
+    specific:
+      lager: 4. Es reichen wohl (vorerst) vier Wochen.
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=539&suche_sorte=Stout&factoraw=20&factorsha=53&factorha1=10.4
 
