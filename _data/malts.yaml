@@ -61,7 +61,15 @@ haferflocken:
   name: Haferflocken
   ebc: 2
   url: https://brauerei.mueggelland.de/malz-details/items/11.html
+dinkelflocken:
+  name: Dinkelflocken
+  ebc: 2
+  url: \#
 caraaroma:
   name: Weyermann Caraaroma
   ebc: 340-450
   url: http://amihopfen.com/Malz/Farb-und-Roestmalze/Weyermann-CARAAROMA-1kg::1362.html
+zucker:
+  name: Zucker
+  ebc: 0
+  url: \#

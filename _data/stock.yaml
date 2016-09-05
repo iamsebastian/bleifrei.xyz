@@ -1,25 +1,25 @@
 yeasts:
   m79: 1
-  windsor: 1
+  windsor: 0
   nottingham: 4
-  us05: 1
+  us05: 0
 hops:
   ekg2014: 0
   progress2013: 60
-  smaragd2014: 184
-  perle2014: 250
-  taurus2014: 100
+  smaragd2014: 0
+  perle2014: 160
+  taurus2014: 90
   northern2014: 250
 malts:
-  wiener: 10000
-  pils: 6000
+  wiener: 5000
+  pils: 4500
   marisotter: 0
   pale: 0
   weizen: 0
   carahell: 0
-  waramber: 450
+  waramber: 0
   röstmalz: 640
   caraaroma: 1000
   chocolate: 1000
   caradunkel: 0
-  gerstenflocken: 800
+  gerstenflocken: 0
