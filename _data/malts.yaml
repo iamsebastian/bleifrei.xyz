@@ -73,3 +73,7 @@ zucker:
   name: Zucker
   ebc: 0
   url: \#
+polenta:
+  name: Polenta (Maisgrieß)
+  ebc: 2
+  url: \#

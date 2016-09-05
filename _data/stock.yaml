@@ -3,6 +3,7 @@ yeasts:
   windsor: 0
   nottingham: 4
   us05: 0
+  s04: 0
 hops:
   ekg2014: 0
   progress2013: 60
