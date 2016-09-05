@@ -1,0 +1,19 @@
+{
+  "name": "bleifrei",
+  "version": "1.0.0",
+  "description": "Brew hack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsebastian/bleifrei.xyz.git"
+  },
+  "author": "Sebastian Blei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamsebastian/bleifrei.xyz/issues"
+  },
+  "homepage": "https://github.com/iamsebastian/bleifrei.xyz#readme"
+}
