@@ -59,7 +59,9 @@
       Min. </li>
   </ul>
 
-  {% include maischplan.svg %}
+  {% if beer.mash %}
+    {% include maischplan.svg %}
+  {% endif %}
 
   {% if beer.orig %}
     <p>
