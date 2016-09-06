@@ -155,14 +155,16 @@
       weight: 7
     - type: progress2013
       time: 75 Min.
-      weight: 35
+      weight: 25
     - type: progress2013
       time: 0 Min.
       weight: 7
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=474
   meta:
-    #isom: 25
+    stw: 12
+    alc: 4.7
+    ibu: 33
   mash:
     - Einmaischen > 60°C
     - 1.Rast > 57 °C für 10 min
@@ -194,6 +196,10 @@
       weight: 12
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
+  meta:
+    stw: 13
+    alc: 5
+    ibu: 35.8
   mash:
     - Einmaischen > 66 °C
     - 1.Rast > 67 °C für 60 min
@@ -207,23 +213,27 @@
     pale: 6000
     carahell: 250
   hops:
-    - type: northern2014
+    - type: taurus2014
       time: 70 Min.
       weight: 2
-    - type: northern2014
+    - type: taurus2014
       time: 20 Min.
       weight: 4
-    - type: northern2014
+    - type: taurus2014
       time: 10 Min.
       weight: 4
-    - type: northern2014
+    - type: taurus2014
       time: 5 Min.
       weight: 4
-    - type: northern2014
+    - type: taurus2014
       time: 0 Min.
       weight: 7
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
+  meta:
+    stw: 13
+    alc: 5
+    ibu: 32.7
   mash:
     - Einmaischen > 66 °C
     - 1.Rast > 67 °C für 60 min
