@@ -12,6 +12,10 @@ section.receipt {
     border-bottom: 1px solid $brown_dark_desaturated;
   }
 
+  ul.square li {
+    list-style-type: square;
+  }
+
   ul li {
     list-style-type: decimal;
   }

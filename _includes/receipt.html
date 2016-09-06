@@ -20,6 +20,16 @@
     <p>Gesamtschüttung: {{ beer | get_sum_weight }}</p>
   </ul>
 
+  {% if beer.mash %}
+    <h3>Maischplan</h3>
+    <ul class="square">
+    {% for mash in beer.mash %}
+      <li>{{mash}}</li>
+    {% endfor %}
+    </ul>
+    {% comment %}{% include maischplan.svg %}{% endcomment %}
+  {% endif %}
+
   <h3>Hopfen</h3>
   <ul>
     {% for hops in beer.hops %}
@@ -35,7 +45,18 @@
   <ul>
     {% for meta in beer.meta %}
       {% unless meta[0] == 'specific' %}
-        <li>{{ meta[0] }}: {{ meta[1] }}</li>
+        <li>
+        {% case meta[0] %}
+        {% when 'stw' %}
+          Stammwürze:
+        {% when 'alc' %}
+          Alkoholgehalt:
+        {% when 'ibu' %}
+          IBU (Bittereinheiten):
+        {% else %}
+          {{ meta[0] }}:
+        {% endcase %}
+        {{ meta[1] }}</li>
       {% endunless %}
     {% endfor %}
 
@@ -58,10 +79,6 @@
       {% endunless %}
       Min. </li>
   </ul>
-
-  {% if beer.mash %}
-    {% include maischplan.svg %}
-  {% endif %}
 
   {% if beer.orig %}
     <p>

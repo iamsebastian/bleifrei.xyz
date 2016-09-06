@@ -145,33 +145,33 @@
   brewed: false
   name: Progress Amber Ale
   malts:
-    pils: 6000
-    polenta: 680
-    caraaroma: 140
-    röstmalz: 36
+    pils: 4500
+    polenta: 500
+    caraaroma: 100
+    röstmalz: 25
   hops:
     - type: progress2013
       time: VWH
-      weight: 7
+      weight: 10
     - type: progress2013
-      time: 75 Min.
-      weight: 25
+      time: 10 Min.
+      weight: 10
     - type: progress2013
       time: 0 Min.
-      weight: 7
+      weight: 10
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=474
   meta:
-    stw: 12
-    alc: 4.7
+    stw: 12°P
+    alc: 4.7%
     ibu: 33
   mash:
-    - Einmaischen > 60°C
-    - 1.Rast > 57 °C für 10 min
-    - 2.Rast > 63 °C für 40 min
-    - 3.Rast > 72 °C für 20 min
-    - Abmaischen > 78°C
-    - Würzekochzeit > 90 min
+    - Einmaischen » 60°C
+    - 1.Rast » 57 °C für 10 min
+    - 2.Rast » 63 °C für 40 min
+    - 3.Rast » 72 °C für 20 min
+    - Abmaischen » 78°C
+    - Würzekochzeit » 10 min
 9:
   brewed: false
   name: Northern Pale Ale
@@ -197,15 +197,15 @@
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
   meta:
-    stw: 13
-    alc: 5
+    stw: 13°P
+    alc: 5%
     ibu: 35.8
   mash:
-    - Einmaischen > 66 °C
-    - 1.Rast > 67 °C für 60 min
-    - 2.Rast > 78 °C für 10 min
-    - Abmaischen > 78 °C
-    - Würzekochzeit > 90 min
+    - Einmaischen » 66 °C
+    - 1.Rast » 67 °C für 60 min
+    - 2.Rast » 78 °C für 10 min
+    - Abmaischen » 78 °C
+    - Würzekochzeit » 90 min
 10:
   brewed: false
   name: Taurus Pale Ale
@@ -231,15 +231,15 @@
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
   meta:
-    stw: 13
-    alc: 5
+    stw: 13°P
+    alc: 5%
     ibu: 32.7
   mash:
-    - Einmaischen > 66 °C
-    - 1.Rast > 67 °C für 60 min
-    - 2.Rast > 78 °C für 10 min
-    - Abmaischen > 78 °C
-    - Würzekochzeit > 90 min
+    - Einmaischen » 66 °C
+    - 1.Rast » 67 °C für 60 min
+    - 2.Rast » 78 °C für 10 min
+    - Abmaischen » 78 °C
+    - Würzekochzeit » 90 min
 11:
   name: Mild Ale (Ridley)
   malts:
