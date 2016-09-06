@@ -611,6 +611,8 @@ section.receipt {
   section.receipt h2 {
     padding-bottom: 1rem;
     border-bottom: 1px solid #47372f; }
+  section.receipt ul.square li {
+    list-style-type: square; }
   section.receipt ul li {
     list-style-type: decimal; }
 
