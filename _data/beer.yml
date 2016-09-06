@@ -145,10 +145,10 @@
   brewed: false
   name: Progress Amber Ale
   malts:
-    pils: 4500
-    polenta: 500
-    caraaroma: 100
-    röstmalz: 25
+    pils: 6000
+    polenta: 680
+    caraaroma: 140
+    röstmalz: 36
   hops:
     - type: progress2013
       time: VWH
@@ -164,46 +164,72 @@
   meta:
     #isom: 25
   mash:
-    - Einmaischen bei 73°C
-    - Kombirast @ 67°C für 60 Min.
-    - Abmaischen bei 78°C
+    - Einmaischen > 60°C
+    - 1.Rast > 57 °C für 10 min
+    - 2.Rast > 63 °C für 40 min
+    - 3.Rast > 72 °C für 20 min
+    - Abmaischen > 78°C
+    - Würzekochzeit > 90 min
 9:
-  name: Wieß
+  brewed: false
+  name: Northern Pale Ale
   malts:
-    pils: 2000
-    wiener: 1000
-    waramber: 200
-  hops:
-    - type: smaragd2014
-      time: VWH
-      weight: 17
-    - type: taurus2014
-      time: 70 Min.
-      weight: 6
-    - type: smaragd2014
-      time: 10 Min.
-      weight: 18
-  meta:
-    specific:
-      lager: 4-6, besser 10
-  yeast: nottingham
-  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=2&id=101&factoraw=20&factorsha=63&factorhav2=&factorhav3=&factorha1=18.4&factorha2=3.9&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=Ale%2C+Pale&suche_malz=Wiener+Malz&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorhav=3.9
-10:
-  name: Oatmeal - Hafer Creme
-  malts:
-    pils: 3000
-    haferflocken: 1000
-    chocolate: 180
-    röstmalz: 180
+    pale: 6000
+    carahell: 250
   hops:
     - type: northern2014
-      time: VWH
-      weight: 26
-  meta:
-    specific:
-      lager: 1
+      time: 70 Min.
+      weight: 4
+    - type: northern2014
+      time: 20 Min.
+      weight: 8
+    - type: northern2014
+      time: 10 Min.
+      weight: 8
+    - type: northern2014
+      time: 5 Min.
+      weight: 8
+    - type: northern2014
+      time: 0 Min.
+      weight: 12
   yeast: nottingham
-  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=539&suche_sorte=Stout&factoraw=20&factorsha=53&factorha1=10.4
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
+  mash:
+    - Einmaischen > 66 °C
+    - 1.Rast > 67 °C für 60 min
+    - 2.Rast > 78 °C für 10 min
+    - Abmaischen > 78 °C
+    - Würzekochzeit > 90 min
+10:
+  brewed: false
+  name: Taurus Pale Ale
+  malts:
+    pale: 6000
+    carahell: 250
+  hops:
+    - type: northern2014
+      time: 70 Min.
+      weight: 2
+    - type: northern2014
+      time: 20 Min.
+      weight: 4
+    - type: northern2014
+      time: 10 Min.
+      weight: 4
+    - type: northern2014
+      time: 5 Min.
+      weight: 4
+    - type: northern2014
+      time: 0 Min.
+      weight: 7
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=279
+  mash:
+    - Einmaischen > 66 °C
+    - 1.Rast > 67 °C für 60 min
+    - 2.Rast > 78 °C für 10 min
+    - Abmaischen > 78 °C
+    - Würzekochzeit > 90 min
 11:
   name: Mild Ale (Ridley)
   malts:
@@ -256,3 +282,40 @@
       lager: 3, besser 6
   yeast: nottingham
   orig: http://www.maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=&id=420&factoraw=20&factorsha=50
+14:
+  name: Wieß
+  malts:
+    pils: 2000
+    wiener: 1000
+    waramber: 200
+  hops:
+    - type: smaragd2014
+      time: VWH
+      weight: 17
+    - type: taurus2014
+      time: 70 Min.
+      weight: 6
+    - type: smaragd2014
+      time: 10 Min.
+      weight: 18
+  meta:
+    specific:
+      lager: 4-6, besser 10
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=2&id=101&factoraw=20&factorsha=63&factorhav2=&factorhav3=&factorha1=18.4&factorha2=3.9&factorha3=&factorha4=&factorha5=&factorha6=&factorha7=&suche_klonrezepte=&suche_anfaenger=&suche_begriff=&suche_sorte=Ale%2C+Pale&suche_malz=Wiener+Malz&suche_malz2=&suche_hopfen=&suche_hopfen2=&suche_weiterezutat=&suche_hefe=&ordertype=DESC&factorhav=3.9
+15:
+  name: Oatmeal - Hafer Creme
+  malts:
+    pils: 3000
+    haferflocken: 1000
+    chocolate: 180
+    röstmalz: 180
+  hops:
+    - type: northern2014
+      time: VWH
+      weight: 26
+  meta:
+    specific:
+      lager: 1
+  yeast: nottingham
+  orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&id=539&suche_sorte=Stout&factoraw=20&factorsha=53&factorha1=10.4
