@@ -4,9 +4,6 @@
     <loc>http://bleifrei.xyz/1/</loc>
   </url>
   <url>
-    <loc>http://bleifrei.xyz/10/</loc>
-  </url>
-  <url>
     <loc>http://bleifrei.xyz/11/</loc>
   </url>
   <url>
@@ -14,6 +11,12 @@
   </url>
   <url>
     <loc>http://bleifrei.xyz/13/</loc>
+  </url>
+  <url>
+    <loc>http://bleifrei.xyz/9/</loc>
+  </url>
+  <url>
+    <loc>http://bleifrei.xyz/10/</loc>
   </url>
   <url>
     <loc>http://bleifrei.xyz/2/</loc>
@@ -35,9 +38,6 @@
   </url>
   <url>
     <loc>http://bleifrei.xyz/8/</loc>
-  </url>
-  <url>
-    <loc>http://bleifrei.xyz/9/</loc>
   </url>
   <url>
     <loc>http://bleifrei.xyz/about/</loc>
