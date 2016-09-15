@@ -14,12 +14,17 @@ nottingham:
   type: obergärig
   weight: 11
 s04:
-  name: safale s-04
+  name: Safale S-04
   url: http://www.hobbybrauerversand.de/safale-us-05-obergaerige-trockenhefe-115g
   weight: 11.5
   type: obergärig
 us05:
-  name: safale us05
+  name: Safale US-05
   url: http://www.hobbybrauerversand.de/safale-us-05-obergaerige-trockenhefe-115g
   weight: 11.5
+  type: obergärig
+gozdawa_pay7:
+  name: Gozdawa Pure Ale
+  url: http://www.gozdawa.org/de/de-drozdze-pay7
+  weight: 11
   type: obergärig

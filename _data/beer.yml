@@ -240,20 +240,22 @@
     - 2.Rast » 78 °C für 10 min
     - Abmaischen » 78 °C
     - Würzekochzeit » 90 min
-11:
-  name: Mild Ale (Ridley)
+12:
+  name: Nut Brown / Mild Ale (Ridley)
   malts:
-    wiener: 2450
-    caraaroma: 250
-    zucker: 290
+    wiener: 6000
+    caraaroma: 200
+    chocolate: 100
+    zucker: 500
+    haferflocken: 500
   hops:
-    - type: northern2014
+    - type: progress2013
       time: VWH (für 30 Min.)
-      weight: 10
-  meta:
-    specific:
-      lager: 2
-  yeast: nottingham
+      weight: 15
+    - type: progress2013
+      time: 15 Min.
+      weight: 15
+  yeast: gozdawa_pay7
   orig: http://hobbybrauer.de/modules.php?name=News&file=article&sid=218
 12:
   name: bald Bock, bald Mai
