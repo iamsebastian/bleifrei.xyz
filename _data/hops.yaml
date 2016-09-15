@@ -52,3 +52,8 @@ northern2014:
   alpha: 10.9
   from: Deutschland
   url: http://www.hopfen-der-welt.de/pellets-typ-90/deutschland/northern-brewer/
+cascade_us2015:
+  name: Cascade (US)
+  alpha: 6.8
+  from: USA
+  url: http://amihopfen.com/Deal-of-the-Day/50g-U-S-Cascade-FREE::1562.html

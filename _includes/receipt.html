@@ -41,6 +41,25 @@
     {% endfor %}
   </ul>
 
+  <h3>Hefe</h3>
+  <ul>
+    {% if beer.yeasts %}
+      {% for yeasts in beer.yeasts %}
+        {% assign yeast = site.data.yeasts[yeasts] %}
+        <li>{{ yeast.name }}</li>
+        {% assign yeast_type = yeast.type %}
+      {% endfor %}
+    {% else if beer.yeast %}
+      {% assign yeast = site.data.yeasts[beer.yeast] %}
+      {% assign yeast_type = yeast.type %}
+      <li>{{ yeast.name }}</li>
+    {% endif %}
+  </ul>
+
+  {% if yeast_type %}
+    <h3>Typ: {{ yeast_type}}</h3>
+  {% endif %}
+
   <h3>Meta</h3>
   <ul>
     {% for meta in beer.meta %}

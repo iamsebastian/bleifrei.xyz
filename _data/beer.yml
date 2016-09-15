@@ -142,23 +142,41 @@
   meta:
     #isom: 25
 8:
+  brewed: true
+  name: Ridleys Mild Nut Brown Ale
+  malts:
+    wiener: 6000
+    caraaroma: 200
+    chocolate: 100
+    zucker: 500
+    haferflocken: 500
+  hops:
+    - type: progress2013
+      time: VWH (für 30 Min.)
+      weight: 15
+    - type: progress2013
+      time: 15 Min.
+      weight: 20
+  yeast: gozdawa_pay7
+  orig: http://hobbybrauer.de/modules.php?name=News&file=article&sid=218
+9:
   brewed: false
-  name: Progress Amber Ale
+  name: Northern Cascade Amber Ale
   malts:
     pils: 4500
     polenta: 500
     caraaroma: 100
     röstmalz: 25
   hops:
-    - type: progress2013
+    - type: cascade_us2015
       time: VWH
-      weight: 10
-    - type: progress2013
-      time: 10 Min.
-      weight: 10
-    - type: progress2013
+      weight: 7
+    - type: northern2014
+      time: 75 Min.
+      weight: 22
+    - type: cascade_us2015
       time: 0 Min.
-      weight: 10
+      weight: 7
   yeast: nottingham
   orig: http://maischemalzundmehr.de/index.php?inhaltmitte=recipe&seite=1&id=474
   meta:
@@ -172,7 +190,7 @@
     - 3.Rast » 72 °C für 20 min
     - Abmaischen » 78°C
     - Würzekochzeit » 10 min
-9:
+10:
   brewed: false
   name: Northern Pale Ale
   malts:
@@ -206,7 +224,7 @@
     - 2.Rast » 78 °C für 10 min
     - Abmaischen » 78 °C
     - Würzekochzeit » 90 min
-10:
+11:
   brewed: false
   name: Taurus Pale Ale
   malts:
@@ -240,23 +258,6 @@
     - 2.Rast » 78 °C für 10 min
     - Abmaischen » 78 °C
     - Würzekochzeit » 90 min
-12:
-  name: Nut Brown / Mild Ale (Ridley)
-  malts:
-    wiener: 6000
-    caraaroma: 200
-    chocolate: 100
-    zucker: 500
-    haferflocken: 500
-  hops:
-    - type: progress2013
-      time: VWH (für 30 Min.)
-      weight: 15
-    - type: progress2013
-      time: 15 Min.
-      weight: 15
-  yeast: gozdawa_pay7
-  orig: http://hobbybrauer.de/modules.php?name=News&file=article&sid=218
 12:
   name: bald Bock, bald Mai
   malts:
